@@ -1,0 +1,46 @@
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+a {
+  color: $gray-800;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 15%);
+  }
+}
+
+.btn {
+  border-radius: 0;
+
+  &.btn-primary{
+    background-color: $primary;
+    border-color: $primary;
+  }
+}
+
+.card {
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar {
+  &-toggler {
+    border-radius: 0;
+    border: none;
+  }
+}
+
+.form-control {
+  border-radius: 0;
+
+  &:focus {
+    border-color: $primary;
+    box-shadow: none;
+  }
+}

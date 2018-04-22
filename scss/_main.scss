@@ -1,0 +1,24 @@
+// classify
+.category {
+  &-img{
+    //   max-width: 80%;
+    //   margin-left: 10%;
+  }
+}
+
+
+.product{
+  &-title{
+    height: 6rem;
+    overflow: hidden;
+  }
+}
+
+.icon{
+  &-x2{
+    font-size: 2rem
+  }
+  &-x4{
+    font-size: 4rem
+  }
+}
