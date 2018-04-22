@@ -27,18 +27,6 @@ gulp.task('vendor', function() {
     ])
     .pipe(gulp.dest('./vendor/bootstrap'))
 
-  // Devicons
-  gulp.src([
-      './node_modules/devicons/**/*',
-      '!./node_modules/devicons/*.json',
-      '!./node_modules/devicons/*.md',
-      '!./node_modules/devicons/!PNG',
-      '!./node_modules/devicons/!PNG/**/*',
-      '!./node_modules/devicons/!SVG',
-      '!./node_modules/devicons/!SVG/**/*'
-    ])
-    .pipe(gulp.dest('./vendor/devicons'))
-
   // Font Awesome
   gulp.src([
       './node_modules/font-awesome/**/*',
