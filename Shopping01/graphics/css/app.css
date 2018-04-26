@@ -1,0 +1,156 @@
+body {
+  font-family: helvetica neue, helvetica, arial, sans-serif;
+  padding-top: 54px;
+  color: #868e96;
+  background: #e5e5e5;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0 !important;
+    padding-left: 17rem !important;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  line-height: 1;
+}
+
+#sideNav .nav-divider {
+  display: block;
+  border-bottom: 1px solid #484a4d;
+  height: 0;
+  margin: 5px 0;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #e9ecef;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.page-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  display: none;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  section.page-section {
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 992px) {
+  section.page-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.product-title {
+  height: 6rem;
+  overflow: hidden;
+}
+
+.icon-x2 {
+  font-size: 2rem;
+}
+
+.icon-x4 {
+  font-size: 4rem;
+}
+
+.bg-primary {
+  background-color: #a20111 !important;
+}
+
+.text-primary {
+  color: #a20111 !important;
+}
+
+a {
+  color: #343a40;
+}
+
+a:hover, a:focus, a:active {
+  color: #560109;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn.btn-primary {
+  background-color: #a20111;
+  border-color: #a20111;
+}
+
+.card {
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-toggler {
+  border-radius: 0;
+  border: none;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.form-control:focus {
+  border-color: #a20111;
+  box-shadow: none;
+}

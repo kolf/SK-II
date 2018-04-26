@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SawtoothClipboardData>
+  <sourceStudy>C:\Users\ZACH.SAWTOOTHLAN\Desktop\Question Library\Questions\MagnificPopup\2017_04_28\Shopping01.ssi</sourceStudy>
+  <questions>
+    <freeFormatQuestion version="1">
+      <name>Shopping01</name>
+      <header1Text>
+        <formattedText version="1">
+          <color></color>
+          <size></size>
+          <bold>DEFAULT</bold>
+          <italic>DEFAULT</italic>
+          <underline>DEFAULT</underline>
+          <align>DEFAULT</align>
+          <text>
+            &lt;script&gt;
+                var PRODUCTS = {
+                  id: "0",
+                  name: "SKII New Product",
+                  title: "SK-II releases 3 new products",
+                  content:
+                    "<p>My skin dullness is more obvious in the next morning when I had a lack of sleep, under stress or drank too much last night…</p><p>Strengthen the original skin power to make it resistant against lack of sleep or stress, and make vibrant skin.</p>",
+                  categorys: [
+                    {
+                      id: "1",
+                      name: "Skin Reset",
+                      title: "SK-II SKIN RESET ESSENCE",
+                      subTitle: "Vibrant Life with Radiant Skin",
+                      imgUrl: "../../graphics/img/category1.png",
+                      content:
+                        "<p>SK-II newly proposed, “First-Attack (Senkou) essence”, it is used first prior to to other skin-treatment products.</p><p> SK-II discovered that lack of sleep and/or irregular hours makes a “layer of dullness” inside skin, inhibits skin care products over days, and makes skin look unhealthy.</p><p>Concentrated Pitera and moisturizing ingredients are freshly kept in the dual package. They are activated by mixing them on your palm. Then, it “resets” the “layer” in your skin.</p><p> Only adding this product takes your skin care to new heights!</p>"
+                    },
+                    {
+                      id: "2",
+                      name: "Skin-Supplement",
+                      title: "SK-II SKIN-SUPPLEMENT ESSENCE",
+                      subTitle: "No more disturbed by troubles",
+                      imgUrl: "../../graphics/img/category1.png",
+                      content:
+                        "<p>SK-II newly proposed, “Multi-essence”, it contains many essential ingredients.</p><p>The balance of skin is sometimes disrupted as if lack of sleep and/or diet causes imbalance. Such unbalanced condition of skin surface causes skin troubles suddenly. </p><p>Concentrated vitamins and Pitera complex are filled in a dual package. They are activated by mixing on your palm, and makes your skin well-balanced.</p><p>You are no more disturbed by troubles in a busy life.</p>"
+                    },
+                    {
+                      id: "3",
+                      name: "Jewel Drops",
+                      title: "SK-II Facial Treatment Jewel-Drop",
+                      subTitle: "Reveal your radiance from within, toward Bare-Beauty",
+                      imgUrl: "../../graphics/img/category1.png",
+                      content:
+                        "<p>SK-II newly propose an advanced skincare product “Jewel-Drop”.</p><p>My skin sometimes has dullness even if I use a lot of products. I didn’t have such condition before… It is because lack of sleep and/or irregular hours weaken your skin-power.</p><p>This is a drop-type skin care product; condensed ingredients in 2 chambers make a drop on hand and shines like a jewel. They are activated by mixing on your palm. It wakes up your natural radiance, and starts brightening within.</p><p>The beautiful bare-skin can simplify your skin care & make-up steps.</p><p>* This new form skin care product allows flexible usages; you can have this product only after Clear Lotion, and/or mix it with other product.</p>"
+                    }
+                  ],
+                  list: [
+                    {
+                      id: "11",
+                      name: "Bestsellers",
+                      categoryId: "1",
+                      title: "SKIN RESET ESSENCE",
+                      subTitle: "Crystal clear skin after one bottle.",
+                      price: "$100",
+                      size: "Pre-Serum 15,000円 30mL",
+                      imgUrl: "../../graphics/img/skin_reset essence.png"
+                    },
+                    {
+                      id: "12",
+                      name: "FTE",
+                      categoryId: "1",
+                      title: "Facial Treatment Essence",
+                      subTitle: "Crystal clear skin after one bottle.",
+                      price: "$120",
+                      size: "Essence (Clear Lotion) 17,000円 160mL",
+                      imgUrl: "../../graphics/img/FTE.png"
+                    },
+                    {
+                      id: "13",
+                      name: "GAE",
+                      categoryId: "1",
+                      title: "Genoptics Aura Essence",
+                      subTitle: "Crystal clear skin after one bottle.",
+                      price: "$110",
+                      size: "Whitening Essence 16,000円 30mL",
+                      imgUrl: "../../graphics/img/GAE.png"
+                    },
+                    {
+                      id: "14",
+                      name: "AA_BE",
+                      categoryId: "1",
+                      title: "R.N.A. Power Radical New Age Essence",
+                      subTitle: "Crystal clear skin after one bottle.",
+                      price: "$40",
+                      size: "Pre-Serum 15,000円 30mL",
+                      imgUrl: "../../graphics/img/RNA_power_BE.png"
+                    },
+                    {
+                      id: "15",
+                      name: "cream",
+                      categoryId: "1",
+                      title: "R.N.A. Power Radical New Age Airy Milky Lotion",
+                      subTitle: "Crystal clear skin after one bottle.",
+                      price: "$100",
+                      size: "Beauty Milky Lotion 11,500円 50g",
+                      imgUrl: "../../graphics/img/Airly_ML.png"
+                    }
+                  ]
+                };
+
+                window.PRODUCTS = PRODUCTS;
+            &lt;/script&gt;
+          </text>
+        </formattedText>
+      </header1Text>
+      <header2Text>
+        <formattedText version="1">
+          <color></color>
+          <size></size>
+          <bold>DEFAULT</bold>
+          <italic>DEFAULT</italic>
+          <underline>DEFAULT</underline>
+          <align>DEFAULT</align>
+          <text></text>
+        </formattedText>
+      </header2Text>
+      <footerText>
+        <formattedText version="1">
+          <color></color>
+          <size></size>
+          <bold>DEFAULT</bold>
+          <italic>DEFAULT</italic>
+          <underline>DEFAULT</underline>
+          <align>DEFAULT</align>
+          <text></text>
+        </formattedText>
+      </footerText>
+      <skips version="1" />
+      <printSettings version="1">
+        <checked>true</checked>
+        <expanded>false</expanded>
+      </printSettings>
+      <htmlHead></htmlHead>
+      <callJavaScript>false</callJavaScript>
+      <javaScriptCallOrder>AFTER</javaScriptCallOrder>
+      <javaScript></javaScript>
+      <userHtml>&lt;script src="[% GraphicsPath() %]js/loadHtml.js"&gt;&lt;/script&gt;</userHtml>
+      <freeFormatVariables version="1">
+        <ffVarHidden version="1">
+          <name>Calendar_Year</name>
+          <datatype>4</datatype>
+        </ffVarHidden>
+      </freeFormatVariables>
+  </freeFormatQuestion>
+  </questions>
+  <lists version="1" />
+</SawtoothClipboardData>
