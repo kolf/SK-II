@@ -20,7 +20,12 @@ init(function(){
 
 function init(callback) {
   var target = location.hash;
-  $(target).addClass("d-flex");
+
+  if(target){
+    $(target).addClass("d-flex");
+  }else{
+    $(".js-page-block").eq(0).addClass("d-flex")
+  }
 
   callback();
 }
