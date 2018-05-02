@@ -127,6 +127,10 @@ a:hover, a:focus, a:active {
   color: #560109;
 }
 
+.btns>.btn{
+  margin: 0 2px;
+}
+
 .btn {
   border-radius: 0;
 }
