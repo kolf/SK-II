@@ -1,6 +1,7 @@
 var APP_KEY = "shopping01";
 
 $(document).ready(function() {
+  var 
   var page = $("#page");
   var path = "[%GraphicsPath()%]";
   var navHtml = [],
@@ -124,7 +125,7 @@ $(document).ready(function() {
     navHtml.join("") +
     '<li class="nav-item nav-divider"></li><li class="nav-item"><a class="nav-link js-scroll-trigger" href="#myCart"> REVIEW SHOPPING CART<p><i class="fa fa-shopping-cart icon-x2"></i></p></a></li></ul></div></nav><div class="container-fluid p-0">' +
     sectionHtml.join("") +
-    '<div class="page-section p-3 p-lg-5 flex-column bg-white js-page-block" id="myCart"><div class="pb-3"><h3><i class="fa fa-shopping-cart icon-x2"></i> MY CART (<span id="total">0</span>)</h3></div><div class="table-responsive"><table class="table table-hover"><thead><tr><th>#</th><th>PRODUCT</th><th>ITEM</th><th>PRCE</th><th>QUANTITY</th></tr></thead><tbody id="buyList"><tr><td class="text-center" colspan="5">您的购物车还没有产品...</td></tr></tbody></table></div><div class="text-right"><span class="display-4" id="totalPrice">$0</span><div><button class="btn btn-primary" id="checkout">CHECKOUT</button></div></div></div></div><link href="../../graphics/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"><link href="../../graphics/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet"><link href="../../graphics/css/app.css" rel="stylesheet"><script src="../../graphics/vendor/bootstrap/js/bootstrap.bundle.min.js"></script><script src="../../graphics/vendor/jquery-easing/jquery.easing.min.js"></script><script src="../../graphics/js/app.js"></script>';
+    '<div class="page-section p-3 p-lg-5 flex-column bg-white js-page-block" id="myCart"><div class="pb-3"><h3><i class="fa fa-shopping-cart icon-x2"></i> MY CART (<span id="total">0</span>)</h3></div><div class="table-responsive"><table class="table table-hover"><thead><tr><th>#</th><th>PRODUCT</th><th>ITEM</th><th>PRCE</th><th>QUANTITY</th></tr></thead><tbody id="buyList"><tr><td class="text-center" colspan="5">您的购物车还没有产品...</td></tr></tbody></table></div><div class="text-right"><span class="display-4" id="totalPrice">$0</span><div><button class="btn btn-primary" id="checkout">CHECKOUT</button></div></div></div><input id="action" name="action" type="hidden"/></div><link href="../../graphics/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"><link href="../../graphics/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet"><link href="../../graphics/css/app.css" rel="stylesheet"><script src="../../graphics/vendor/bootstrap/js/bootstrap.bundle.min.js"></script><script src="../../graphics/vendor/jquery-easing/jquery.easing.min.js"></script><script src="../../graphics/js/app.js"></script>';
 
   if (page.length > 0) {
     $("link").each(function() {
