@@ -148,8 +148,8 @@
       <userHtml>&lt;script src="[% GraphicsPath() %]js/loadHtml.js"&gt;&lt;/script&gt;</userHtml>
       <freeFormatVariables version="1">
         <ffVarHidden version="1">
-          <name>Calendar_Year</name>
-          <datatype>4</datatype>
+          <name>Shopping01_list</name>
+          <datatype>3</datatype>
         </ffVarHidden>
       </freeFormatVariables>
   </freeFormatQuestion>
