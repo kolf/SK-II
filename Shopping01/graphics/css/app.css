@@ -37,6 +37,34 @@ h1 {
   margin: 5px 0;
 }
 
+.footer-checkout-icon{
+  padding-bottom: 10px;
+  position: relative;
+}
+.footer-checkout-icon .fa{
+  font-size: 60px;
+}
+.footer-checkout-icon span{
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  left: 80%;
+  background: #a20111;
+  line-height: 1;
+  padding: 4px;
+  color: #fff;
+  border-radius: 50%;
+  min-width: 20px;
+}
+
+#previous_button{
+  position:  absolute;
+  left: 20px;
+  top: 10px;
+  color: #9a9da0;
+  font-size: 50px;
+}
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;

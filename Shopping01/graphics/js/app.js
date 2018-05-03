@@ -1,5 +1,8 @@
 (function() {
-  var $buyList = $("#buyList");
+  var $buyList = $("#buyList"),
+    $total = $("#total"),
+    $totalPrice = $("#totalPrice"),
+    $cartTotal = $("#cart-num");
   var productList = PRODUCTS.list.map(function(item) {
     return {
       buyNum: 0,
@@ -78,10 +81,12 @@
       product.buyNum = num;
     }
 
-    var productIndex = 0;
+    var productIndex = 0,
+      totalPrice = 0;
     productList.forEach(function(item) {
       if (item.buyNum > 0) {
         productIndex++;
+        totalPrice += item.buyNum * item.price;
         buyHtml.push(
           "<tr><td>" +
             productIndex +
@@ -93,7 +98,7 @@
             item.title +
             "</p><p>" +
             item.size +
-            "</p></td><td>" +
+            "</p></td><td>$" +
             item.price +
             '</td><td><input type="number" value="' +
             item.buyNum +
@@ -102,12 +107,16 @@
       }
     });
 
-    if (buyHtml.length > 0) {
+    var total = buyHtml.length;
+    if (total > 0) {
       $buyList.html(buyHtml.join(""));
     } else {
       $buyList.html(
         '<tr><td class="text-center" colspan="5">您的购物车还没有产品...</td></tr>'
       );
     }
+    $totalPrice.text("$" + totalPrice);
+    $total.text(total);
+    $cartTotal.text(total);
   }
 })();
