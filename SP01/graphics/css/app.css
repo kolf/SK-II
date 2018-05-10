@@ -40,6 +40,7 @@ h1 {
 .footer-checkout-icon{
   padding-bottom: 10px;
   position: relative;
+  margin-left: 120px;
 }
 .footer-checkout-icon .fa{
   font-size: 60px;

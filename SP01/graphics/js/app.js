@@ -13,7 +13,8 @@
         price: item.price,
         size: item.size,
         imgUrl: item.imgUrl,
-        added: 0
+        added: 0,
+        click: 0,
       };
     });
 
@@ -25,6 +26,8 @@
       scrollBtns.click(function () {
         var btn = $(this);
         var target = $(this).attr("href") || $(this).attr("data-href");
+
+        console.log(target);
 
         if (target && $(target).length) {
           if (location.hash != target) {
@@ -97,25 +100,26 @@
       product.buyNum = num;
     }
 
+    var added = product.buyNum > 0 ? 1 : 0;
+    $('input[name=' + APP_KEY + '_item' + id + 'Added]').val(added);
+    $('input[name=' + APP_KEY + '_item' + id + 'Buy]').val(product.buyNum);
+
     var productIndex = 0,
-      totalPrice = 0;
+      totalPrice = 0,
+      total = 0;
     productList.forEach(function (item) {
-      var added = item.added > 0 ? 1 : 0;
-      if (added) {
+      if (item.buyNum > 0) {
+        total += item.buyNum;
         productIndex++;
         totalPrice += item.buyNum * item.price;
         buyHtml.push('<tr data-id="' + item.id + '"><td>' + productIndex + '</td><td class="text-center"><img src="' + item.imgUrl + '" alt="' + item.title + '" width="160" class="img-full"></td><td><div>' + item.title + '</div><p>' + item.size + '</p><p><button type="button" class="btn btn-sm btn-danger js-detele-btn">DETELE</button></p></td><td>$' + item.price + '</td><td><input type="number" value="' + item.buyNum + '" class="form-control text-center"></td></tr>');
       }
-
-      $('input[name=' + APP_KEY + '_item' + id + 'Added]').val(added);
-      $('input[name=' + APP_KEY + '_item' + id + 'Buy]').val(item.buyNum);
     });
 
-    var total = buyHtml.length;
     if (total > 0) {
       $buyList.html(buyHtml.join(""));
     } else {
-      $buyList.html('<tr><td class="text-center" colspan="5">您的购物车还没有产品...</td></tr>');
+      $buyList.html('<tr><td class="text-center" colspan="5">Your Shopping Cart is Empty...</td></tr>');
     }
     $totalPrice.text("$" + totalPrice);
     $total.text(total);
