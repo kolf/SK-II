@@ -14,6 +14,7 @@
           <align>DEFAULT</align>
           <text>&lt;script&gt;
   var PRODUCTS = {
+      id: '0',
       name: "SKII New Product",
       title: "SK-II releases 3 new products",
       content:
