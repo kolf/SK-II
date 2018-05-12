@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SawtoothClipboardData>
-  <sourceStudy>C:\Users\ZACH.SAWTOOTHLAN\Desktop\Question Library\Questions\SP01\SP01.ssi</sourceStudy>
+  <sourceStudy>C:\Users\Kolf\Documents\Sawtooth Software\Lighthouse Studio\Studies\test02\test02.ssi</sourceStudy>
   <questions>
     <freeFormatQuestion version="1">
       <name>SP01</name>
@@ -13,73 +13,137 @@
           <underline>DEFAULT</underline>
           <align>DEFAULT</align>
           <text>&lt;script&gt;
-  var PRODUCTS = {
-      id: '0',
-      name: "SKII New Product",
-      title: "SK-II releases 3 new products",
-      content:
-        "&lt;p&gt;My skin dullness is more obvious in the next morning when I had a lack of sleep, under stress or drank too much last night…&lt;/p&gt;&lt;p&gt;Strengthen the original skin power to make it resistant against lack of sleep or stress, and make vibrant skin.&lt;/p&gt;",
-      list: [
-        {
-          id: "1",
-          name: "Bestsellers",
-          title: "SKIN RESET ESSENCE",
-          subTitle: "Crystal clear skin after one bottle.",
-          price: "100",
-          size: "Pre-Serum 15,000円 30mL",
-          imgUrl: "[% GraphicsPath() %]/img/skin_reset essence.png",
-          content:
-            "&lt;p&gt;SK-II newly propose an advanced skincare product “Jewel-Drop”.&lt;/p&gt;&lt;p&gt;My skin sometimes has dullness even if I use a lot of products. I didn’t have such condition before… It is because lack of sleep and/or irregular hours weaken your skin-power.&lt;/p&gt;&lt;p&gt;This is a drop-type skin care product; condensed ingredients in 2 chambers make a drop on hand and shines like a jewel. They are activated by mixing on your palm. It wakes up your natural radiance, and starts brightening within.&lt;/p&gt;&lt;p&gt;The beautiful bare-skin can simplify your skin care &amp; make-up steps.&lt;/p&gt;&lt;p&gt;* This new form skin care product allows flexible usages; you can have this product only after Clear Lotion, and/or mix it with other product.&lt;/p&gt;"
-        },
-        {
-          id: "2",
-          name: "FTE",
-          title: "Facial Treatment Essence",
-          subTitle: "Crystal clear skin after one bottle.",
-          price: "120",
-          size: "Essence (Clear Lotion) 17,000円 160mL",
-          imgUrl: "[% GraphicsPath() %]/img/FTE.png",
-          content:
-            "&lt;p&gt;SK-II newly propose an advanced skincare product “Jewel-Drop”.&lt;/p&gt;&lt;p&gt;My skin sometimes has dullness even if I use a lot of products. I didn’t have such condition before… It is because lack of sleep and/or irregular hours weaken your skin-power.&lt;/p&gt;&lt;p&gt;This is a drop-type skin care product; condensed ingredients in 2 chambers make a drop on hand and shines like a jewel. They are activated by mixing on your palm. It wakes up your natural radiance, and starts brightening within.&lt;/p&gt;&lt;p&gt;The beautiful bare-skin can simplify your skin care &amp; make-up steps.&lt;/p&gt;&lt;p&gt;* This new form skin care product allows flexible usages; you can have this product only after Clear Lotion, and/or mix it with other product.&lt;/p&gt;"
-        },
-        {
-          id: "3",
-          name: "GAE",
-          title: "Genoptics Aura Essence",
-          subTitle: "Crystal clear skin after one bottle.",
-          price: "110",
-          size: "Whitening Essence 16,000円 30mL",
-          imgUrl: "[% GraphicsPath() %]/img/GAE.png",
-          content:
-            "&lt;p&gt;SK-II newly propose an advanced skincare product “Jewel-Drop”.&lt;/p&gt;&lt;p&gt;My skin sometimes has dullness even if I use a lot of products. I didn’t have such condition before… It is because lack of sleep and/or irregular hours weaken your skin-power.&lt;/p&gt;&lt;p&gt;This is a drop-type skin care product; condensed ingredients in 2 chambers make a drop on hand and shines like a jewel. They are activated by mixing on your palm. It wakes up your natural radiance, and starts brightening within.&lt;/p&gt;&lt;p&gt;The beautiful bare-skin can simplify your skin care &amp; make-up steps.&lt;/p&gt;&lt;p&gt;* This new form skin care product allows flexible usages; you can have this product only after Clear Lotion, and/or mix it with other product.&lt;/p&gt;"
-        },
-        {
-          id: "4",
-          name: "AA_BE",
-          title: "R.N.A. Power Radical New Age Essence",
-          subTitle: "Crystal clear skin after one bottle.",
-          price: "40",
-          size: "Pre-Serum 15,000円 30mL",
-          imgUrl: "[% GraphicsPath() %]/img/RNA_power_BE.png",
-          content:
-            "&lt;p&gt;SK-II newly propose an advanced skincare product “Jewel-Drop”.&lt;/p&gt;&lt;p&gt;My skin sometimes has dullness even if I use a lot of products. I didn’t have such condition before… It is because lack of sleep and/or irregular hours weaken your skin-power.&lt;/p&gt;&lt;p&gt;This is a drop-type skin care product; condensed ingredients in 2 chambers make a drop on hand and shines like a jewel. They are activated by mixing on your palm. It wakes up your natural radiance, and starts brightening within.&lt;/p&gt;&lt;p&gt;The beautiful bare-skin can simplify your skin care &amp; make-up steps.&lt;/p&gt;&lt;p&gt;* This new form skin care product allows flexible usages; you can have this product only after Clear Lotion, and/or mix it with other product.&lt;/p&gt;"
-        },
-        {
-          id: "5",
-          name: "cream",
-          title: "R.N.A. Power Radical New Age Airy Milky Lotion",
-          subTitle: "Crystal clear skin after one bottle.",
-          price: "100",
-          size: "Beauty Milky Lotion 11,500円 50g",
-          imgUrl: "[% GraphicsPath() %]/img/Airly_ML.png",
-          content:
-            "&lt;p&gt;SK-II newly propose an advanced skincare product “Jewel-Drop”.&lt;/p&gt;&lt;p&gt;My skin sometimes has dullness even if I use a lot of products. I didn’t have such condition before… It is because lack of sleep and/or irregular hours weaken your skin-power.&lt;/p&gt;&lt;p&gt;This is a drop-type skin care product; condensed ingredients in 2 chambers make a drop on hand and shines like a jewel. They are activated by mixing on your palm. It wakes up your natural radiance, and starts brightening within.&lt;/p&gt;&lt;p&gt;The beautiful bare-skin can simplify your skin care &amp; make-up steps.&lt;/p&gt;&lt;p&gt;* This new form skin care product allows flexible usages; you can have this product only after Clear Lotion, and/or mix it with other product.&lt;/p&gt;"
-        }
-      ]
-    }
+ var PRODUCTS = {
+	id: '0',
+	name: "SKII New Product",
+	title: "SK-II releases 3 new products",
+	content:
+	  "&lt;p&gt;My skin dullness is more obvious in the next morning when I had a lack of sleep, under stress or drank too much last night…&lt;/p&gt;&lt;p&gt;Strengthen the original skin power to make it resistant against lack of sleep or stress, and make vibrant skin.&lt;/p&gt;",
+	  newList: [
+	  {
+		  id: "1",
+		  name: 'Skin Reset',
+		  title: 'SK-II SKIN RESET ESSENCE',
+		  subTitle: 'Vibrant Life with Radiant Skin',
+		  price: '140',
+		  size: '30ml',
+		  imgUrl: "[% GraphicsPath() %]/img/category1.png",
+		  bgUrl: "[% GraphicsPath() %]/img/FTE_image.jpg",
+		  content: "&lt;p&gt;SK-II newly proposed, “First-Attack (Senkou) essence”, it is used first prior to to other skin-treatment products. &lt;/p&gt;&lt;p&gt;SK-II discovered that lack of sleep and/or irregular hours makes a “layer of dullness” inside skin, inhibits skin care products over days, and makes skin look unhealthy.&lt;/p&gt;&lt;p&gt;Concentrated Pitera and moisturizing ingredients are freshly kept in the dual package. They are activated by mixing them on your palm. Then, it “resets” the “layer” in your skin.&lt;/p&gt;&lt;p&gt;Only adding this product takes your skin care  to new heights!&lt;/p &gt; "
+	  },
+	  {
+		  id: "2",
+		  name: 'Skin Supplement',
+		  title: 'SK-II SKIN-SUPPLEMENT ESSENCE',
+		  subTitle: 'No more disturbed by troubles',
+		  price: '140',
+		  size: '30ml',
+		  imgUrl: "[% GraphicsPath() %]/img/category1.png",
+		  bgUrl: "[% GraphicsPath() %]/img/FTE_image.jpg",
+		  content: "&lt;p&gt;SK-II newly proposed, “Multi-essence”, it contains many essential ingredients.&lt;/p &gt;&lt;p&gt;The balance of skin is sometimes disrupted as if lack of sleep and/or diet causes imbalance.  Such unbalanced condition of skin surface causes skin troubles suddenly. &lt;/p &gt;&lt;p&gt;Concentrated vitamins and Pitera complex are filled in a dual package. They are activated by mixing on your palm, and makes your skin well-balanced.&lt;/p &gt;&lt;p&gt;You are no more disturbed by troubles in a busy life.&lt;/p &gt; "
+	  },
+	  {
+		  id: "3",
+		  name: 'Jewel Drop',
+		  title: 'SK-II SKIN-SUPPLEMENT ESSENCE',
+		  subTitle: 'No more disturbed by troubles',
+		  price: '140',
+		  size: '30ml',
+		  imgUrl: "[% GraphicsPath() %]/img/category1.png",
+		  bgUrl: "[% GraphicsPath() %]/img/FTE_image.jpg",
+		  content: "&lt;p&gt;SK-II newly proposed, “First-Attack (Senkou) essence”, it is used first prior to to other skin-treatment products. &lt;/p&gt;&lt;p&gt;SK-II discovered that lack of sleep and/or irregular hours makes a “layer of dullness” inside skin, inhibits skin care products over days, and makes skin look unhealthy.&lt;/p&gt;&lt;p&gt;Concentrated Pitera and moisturizing ingredients are freshly kept in the dual package. They are activated by mixing them on your palm. Then, it “resets” the “layer” in your skin.&lt;/p&gt;&lt;p&gt;Only adding this product takes your skin care  to new heights!&lt;/p &gt; "
+	  }
+  ],
+	list: [
+	  {
+		id: "4",
+		name: "Bestsellers",
+		title: "SKIN RESET ESSENCE",
+		subTitle: "Crystal clear skin after one bottle.",
+		price: "100",
+		size: "Pre-Serum 15,000円 30mL",
+		imgUrl: "[% GraphicsPath() %]/img/skin_reset essence.png",
+		bgUrl: "[% GraphicsPath() %]/img/FTE_image.jpg",
+		content:
+		  "&lt;p&gt;SK-II newly propose an advanced skincare product “Jewel-Drop”.&lt;/p&gt;&lt;p&gt;My skin sometimes has dullness even if I use a lot of products. I didn’t have such condition before… It is because lack of sleep and/or irregular hours weaken your skin-power.&lt;/p&gt;&lt;p&gt;This is a drop-type skin care product; condensed ingredients in 2 chambers make a drop on hand and shines like a jewel. They are activated by mixing on your palm. It wakes up your natural radiance, and starts brightening within.&lt;/p&gt;&lt;p&gt;The beautiful bare-skin can simplify your skin care &amp; make-up steps.&lt;/p&gt;&lt;p&gt;* This new form skin care product allows flexible usages; you can have this product only after Clear Lotion, and/or mix it with other product.&lt;/p&gt;"
+	  },
+	  {
+		id: "5",
+		name: "FTE",
+		title: "Facial Treatment Essence",
+		subTitle: "Crystal clear skin after one bottle.",
+		price: "120",
+		size: "Essence (Clear Lotion) 17,000円 160mL",
+		imgUrl: "[% GraphicsPath() %]/img/FTE.png",
+		bgUrl: "[% GraphicsPath() %]/img/FTE_image.jpg",
+		content:
+		  "&lt;p&gt;Unchanged for over 35 years. Facial Treatment Essence is SK-II’s signature and most awarded bestseller with more than 90% PITERA™, a natural bio-ingredient containing vitamins, amino acids, and minerals. &lt;/p&gt;&lt;p&gt;Facial Treatment Essence transforms your skin to crystal clear, boosting skin’s texture, radiance and firmness. &lt;/p&gt;&lt;p&gt;Experience the power of PITERA™.&lt;/p&gt;"
+	  },
+	  {
+		id: "6",
+		name: "GAE",
+		title: "Genoptics Aura Essence",
+		subTitle: "Crystal clear skin after one bottle.",
+		price: "110",
+		size: "Whitening Essence 16,000円 30mL",
+		imgUrl: "[% GraphicsPath() %]/img/GAE.png",
+		bgUrl: "[% GraphicsPath() %]/img/GAE_BE.jpg",
+		content:
+		  "&lt;p&gt;Reveal your aura from within¹ with our signature product from SK-II's award-winning whitening boutique&lt;/p&gt;&lt;p&gt;Re-coded with PITERA™ infused GenOptics Aura Complex, it reduces hidden and visible spot　formations in skin to reveal your aura glow. This leaves skin looking radiant and brighter from within.&lt;/p&gt;"
+	  },
+	  {
+		id: "7",
+		name: "AA_BE",
+		title: "R.N.A. Power Radical New Age Essence",
+		subTitle: "Crystal clear skin after one bottle.",
+		price: "40",
+		size: "Pre-Serum 15,000円 30mL",
+		imgUrl: "[% GraphicsPath() %]/img/RNA_power_BE.png",
+		bgUrl: "[% GraphicsPath() %]/img/RNAPower_BE.jpg",
+		content:
+		  "&lt;p&gt;Improves firmness and texture for bouncy, pore-less skin so you look younger even as you age&lt;/p&gt;&lt;p&gt;The beautiful bare-skin can simplify your skin care &amp; make-up steps.&lt;/p&gt;&lt;p&gt;Immediately upon application, each drop fills the gaps in your skin, making it firm, resilient, and feeling plump. Skin becomes smooth and tinged with a fresh morning glow the next day. One bottle reduces the appearance of pores and wrinkles. &lt;/p&gt;"
+	  },
+	  {
+		id: "8",
+		name: "cream",
+		title: "R.N.A. Power Radical New Age Airy Milky Lotion",
+		subTitle: "Crystal clear skin after one bottle.",
+		price: "100",
+		size: "Beauty Milky Lotion 11,500円 50g",
+		imgUrl: "[% GraphicsPath() %]/img/Airly_ML.png",
+		bgUrl: "[% GraphicsPath() %]/img/RNA_Cream.jpg",
+		content:
+		  "&lt;p&gt;Improves your skin beauty even as you age.&lt;/p&gt;&lt;p&gt;The beautiful bare-skin can simplify your skin care &amp; make-up steps.&lt;/p&gt;&lt;p&gt;Featuring the RNArchitect Complex² and an innovative structure to lock in moisture, R.N.A. Power Radical New Age Airy Milky Lotion helps to rebuild beauty from within³. Wake up to supple and revitalised skin the morning after and look forward to youthful radiance with continued use.&lt;/p&gt;"
+	  }
+	]
+  }
+  
+  var PATH = "[% GraphicsPath() %]";
 &lt;/script&gt;</text>
         </formattedText>
       </header1Text>
+      <header2Text>
+        <formattedText version="1">
+          <color></color>
+          <size></size>
+          <bold>DEFAULT</bold>
+          <italic>DEFAULT</italic>
+          <underline>DEFAULT</underline>
+          <align>DEFAULT</align>
+          <text></text>
+        </formattedText>
+      </header2Text>
+      <footerText>
+        <formattedText version="1">
+          <color></color>
+          <size></size>
+          <bold>DEFAULT</bold>
+          <italic>DEFAULT</italic>
+          <underline>DEFAULT</underline>
+          <align>DEFAULT</align>
+          <text></text>
+        </formattedText>
+      </footerText>
       <skips version="1" />
       <printSettings version="1">
         <checked>true</checked>
@@ -96,67 +160,103 @@
       <userHtml>&lt;script src="[% GraphicsPath() %]js/loadHtml.js"&gt;&lt;/script&gt;</userHtml>
       <freeFormatVariables version="1">
         <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item1Click</name>
+          <name>SP01_item1Click</name>
           <datatype>3</datatype>
         </ffVarHidden>
         <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item2Click</name>
+          <name>SP01_item2Click</name>
           <datatype>3</datatype>
         </ffVarHidden>
         <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item3Click</name>
+          <name>SP01_item3Click</name>
           <datatype>3</datatype>
         </ffVarHidden>
         <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item4Click</name>
+          <name>SP01_item4Click</name>
           <datatype>3</datatype>
         </ffVarHidden>
         <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item5Click</name>
+          <name>SP01_item5Click</name>
           <datatype>3</datatype>
         </ffVarHidden>
         <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item1Added</name>
+          <name>SP01_item6Click</name>
           <datatype>3</datatype>
         </ffVarHidden>
         <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item2Added</name>
+          <name>SP01_item7Click</name>
           <datatype>3</datatype>
         </ffVarHidden>
         <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item3Added</name>
+          <name>SP01_item8Click</name>
           <datatype>3</datatype>
         </ffVarHidden>
         <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item4Added</name>
+          <name>SP01_item1Added</name>
           <datatype>3</datatype>
         </ffVarHidden>
         <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item5Added</name>
-          <datatype>3</datatype>
-        </ffVarHidden>
-          <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item1Buy</name>
+          <name>SP01_item2Added</name>
           <datatype>3</datatype>
         </ffVarHidden>
         <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item2Buy</name>
+          <name>SP01_item3Added</name>
           <datatype>3</datatype>
         </ffVarHidden>
         <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item3Buy</name>
+          <name>SP01_item4Added</name>
           <datatype>3</datatype>
         </ffVarHidden>
         <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item4Buy</name>
+          <name>SP01_item5Added</name>
           <datatype>3</datatype>
         </ffVarHidden>
         <ffVarHidden version="1">
-          <name>[% QuestionName() %]_item5Buy</name>
+          <name>SP01_item6Added</name>
+          <datatype>2</datatype>
+        </ffVarHidden>
+        <ffVarHidden version="1">
+          <name>SP01_item7Added</name>
+          <datatype>3</datatype>
+        </ffVarHidden>
+        <ffVarHidden version="1">
+          <name>SP01_item8Added</name>
+          <datatype>3</datatype>
+        </ffVarHidden>
+        <ffVarHidden version="1">
+          <name>SP01_item1Buy</name>
+          <datatype>3</datatype>
+        </ffVarHidden>
+        <ffVarHidden version="1">
+          <name>SP01_item2Buy</name>
+          <datatype>3</datatype>
+        </ffVarHidden>
+        <ffVarHidden version="1">
+          <name>SP01_item3Buy</name>
+          <datatype>3</datatype>
+        </ffVarHidden>
+        <ffVarHidden version="1">
+          <name>SP01_item4Buy</name>
+          <datatype>3</datatype>
+        </ffVarHidden>
+        <ffVarHidden version="1">
+          <name>SP01_item5Buy</name>
+          <datatype>3</datatype>
+        </ffVarHidden>
+        <ffVarHidden version="1">
+          <name>SP01_item6Buy</name>
+          <datatype>3</datatype>
+        </ffVarHidden>
+        <ffVarHidden version="1">
+          <name>SP01_item7Buy</name>
+          <datatype>3</datatype>
+        </ffVarHidden>
+        <ffVarHidden version="1">
+          <name>SP01_item8Buy</name>
           <datatype>3</datatype>
         </ffVarHidden>
       </freeFormatVariables>
-  </freeFormatQuestion>
+    </freeFormatQuestion>
   </questions>
   <lists version="1" />
 </SawtoothClipboardData>

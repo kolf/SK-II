@@ -128,7 +128,12 @@ h1 {
 }
 
 .product-title {
-  height: 6rem;
+  height: 96px;
+  overflow: hidden;
+}
+
+.product-subtitle{
+  height:72px;
   overflow: hidden;
 }
 
@@ -186,4 +191,28 @@ a:hover, a:focus, a:active {
 .form-control:focus {
   border-color: #a20111;
   box-shadow: none;
+}
+
+
+.angle-btn{
+  padding: 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+  border-radius: 50%;
+}
+
+.angle-btn>.fa{
+  line-height: 1;
+  width: 64px;
+  position: relative;
+}
+
+.angle-btn>.fa-angle-left{
+  left: -2px;
+  top: -2px
+}
+
+
+.angle-btn>.fa-angle-right{
+  left: 4px;
+  top: -1px
 }
